@@ -3,7 +3,6 @@ package socialNetwork;
 /**
  * This class is our implementation of a linked list data
  * structure to be used by other classes within our program.
- * @author Jake Ferrero (jaferrer)
  */
 public class LinkedList<E> {
   /** Beginning node of the list. */

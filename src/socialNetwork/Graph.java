@@ -9,7 +9,6 @@ import java.util.HashMap;
  * Graph class used by the socialNetwork.  Contains a list of all of the people within the social
  * network using a hash map.  The keys of the hash map are the names of the people in the network
  * and each key points to the contents of a person with that name.
- * @author Jake Ferrero (jaferrer)
  */
 public class Graph {
   /**

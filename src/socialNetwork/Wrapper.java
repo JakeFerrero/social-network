@@ -7,7 +7,6 @@ import java.util.Scanner;
 /**
  * This is the wrapper class for the Graph, it allows the UI to run simple queries
  * on the graph without having to worry about algorithms.
- * @author Elizabeth Gilbert (evgilber)
  */
 public class Wrapper {
   /** The network containing all people and their friends */

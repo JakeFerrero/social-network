@@ -8,10 +8,6 @@ import junit.framework.TestCase;
 import socialNetwork.Graph;
 import socialNetwork.Person;
 
-/**
- * @author Ferrero
- *
- */
 public class GraphTest extends TestCase{
   
   Graph g;
