@@ -5,12 +5,12 @@ firend with another, whether two people are connected at all, and whether or not
 on the number of friends they have.
 
 ## Usage
-To create the social network:
+From the top-level directory:
 ```
-java SocialNetwork <input>.txt
+java socialNetwork/SocialNetwork <input>.txt
 ```
 Where <input>.txt contains names (seperated by newlines). Then a '$', then two names side-by-side, representing a relationship
-between two people. For example input files, see the tests directory and view the .txt files.
+between two people. For example input files, see the tests directory and view the .txt files. The input file is needed in order to generate the actual "social network."
 
 Once the application is started, a '$' will be present, letting the user know the app is ready for input. The following are valid queries:
 
