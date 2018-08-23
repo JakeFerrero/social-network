@@ -1,7 +1,7 @@
 # Social Network
 A Java application that simulates a basic social network using Dijkstra's algorithm, breadth first search,
 and a shortest path algorithm. A user can check whether two people are fiends, whether one person is a mutual
-firend with another, whether two people are connected at all, and whether or not someone is populat based
+firend with another, whether two people are connected at all, and whether or not someone is popular based
 on the number of friends they have.
 
 ## Usage
