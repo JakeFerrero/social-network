@@ -7,7 +7,7 @@ on the number of friends they have.
 ## Usage
 From the top-level directory:
 ```
-java socialNetwork/SocialNetwork <input>.txt
+java socialNetwork.SocialNetwork <input>.txt
 ```
 Where <input>.txt contains names (seperated by newlines). Then a '$', then lines containing two names side-by-side (seperated by a space), representing a relationship between two people. For example input files, see the tests/files/ubertests directory and view the k5.txt, p5.txt files. The input file is needed in order to generate the actual "social network."
 
