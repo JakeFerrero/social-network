@@ -1,8 +1,0 @@
-alpha
-beta
-gamma
-delta
-epsilon
-$
-alpha epsilon
-gamma delta

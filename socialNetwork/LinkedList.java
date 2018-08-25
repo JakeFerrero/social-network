@@ -168,7 +168,6 @@ public class LinkedList<E> {
   /**
    * Internal class used only by Linked List that defines the
    * implementation of Nodes for the Linked List.
-   * @author Jake Ferrero (jaferrer)
    */
   private class Node {
     /** Node that follows the current one. */

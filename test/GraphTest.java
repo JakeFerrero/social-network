@@ -1,6 +1,3 @@
-/**
- * 
- */
 package test;
 
 import junit.framework.TestCase;
@@ -27,31 +24,6 @@ public class GraphTest extends TestCase{
    */
   public void setUp() throws Exception {
     g = new Graph();
-
-    /*
-    p1 = new Person("Jake");
-    p2 = new Person("Elizabeth");
-    p3 = new Person("Aruna");
-    p4 = new Person("Mathias");
-    p5 = new Person("Dan");
-    p6 = new Person("Tyler");
-    p7 = new Person("Christina");
-    p8 = new Person("Josh");
-    p9 = new Person("Joey");
-    p10 = new Person("Tony");
-    */
-    
-    /*g.add(p1.getName());
-    g.add(p2.getName());
-    g.add(p3.getName());
-    g.add(p4.getName());
-    g.add(p5.getName());
-    g.add(p6.getName());
-    g.add(p7.getName());
-    g.add(p8.getName());
-    g.add(p9.getName());
-    g.add(p10.getName());
-    */
   }
 
   public void testAdd() {
@@ -79,11 +51,6 @@ public class GraphTest extends TestCase{
     g.add(p3);
     g.add(p4);
     g.add(p5);
-    /*g.add(p6.getName());
-    g.add(p7.getName());
-    g.add(p8.getName());
-    g.add(p9.getName());
-    g.add(p10.getName()); */
     
     p1.addFriend(p2);
     p1.addFriend(p3);
@@ -96,7 +63,6 @@ public class GraphTest extends TestCase{
     p4.addFriend(p5);
     p5.addFriend(p4);
     
-    //System.out.println(g.diJakestra(p1, p5));
     String s = "Jake\n" + "Elizabeth\n" + "Mathias\n" + "Dan\n";
     assertEquals(s, g.diJakestra(g.find(p1.getName()), g.find(p5.getName())));
   }

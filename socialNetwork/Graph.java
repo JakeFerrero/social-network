@@ -1,6 +1,3 @@
-/**
- * 
- */
 package socialNetwork;
 
 import java.util.HashMap;

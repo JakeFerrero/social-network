@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class SocialNetwork {
   /**
 
-   o Valid Queries:
+     Valid Queries:
      - isfriend personA personB
        function: Is personA friends with personB?
        output: yes / no
@@ -56,34 +56,5 @@ public class SocialNetwork {
         System.out.println("Invalid command: " + command );
       }
     }
-
-    /**
-    // Read in commands
-    Scanner console = new Scanner(System.in);
-    Scanner line = new Scanner(console.nextLine());
-
-    String command = line.next();
-
-    while( !command.equals("quit") ) {
-
-      if(command.equals("isfriend")) {
-        String eval = wrap.isFriend(line.next(), line.next()) ? "yes" : "no";
-        System.out.println(eval + "\n$");
-      } else if(command.equals("mutual")) {
-        System.out.println(wrap.mutualFriends(line.next(), line.next()) + "$");
-      } else if(command.equals("relation")) {
-        System.out.println(wrap.relation(line.next(), line.next()) + "$");
-      } else if(command.equals("notconnected")) {
-        System.out.println(wrap.notConnected() + "$");
-      } else if(command.equals("popular")) {
-        System.out.println(wrap.computePopular() + "$");
-      } else {
-        System.out.println("Invalid command: " + command );
-      }
-
-      line = new Scanner(console.nextLine());
-      command = line.next();
-    }
-     */
   }
 }

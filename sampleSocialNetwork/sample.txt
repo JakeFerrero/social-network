@@ -1,0 +1,17 @@
+jake
+elizabeth
+christina
+josh
+dan
+$
+jake dan
+christina josh
+josh elizabeth
+elizabeth jake
+dan christina
+josh jake
+jake christina
+elizabeth dan
+elizabeth christina
+dan josh
+
